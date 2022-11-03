@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+     service:
+          container_name: micro-service
+          restart: always
+          build: .
+          ports:
+              - "9091:8085"
